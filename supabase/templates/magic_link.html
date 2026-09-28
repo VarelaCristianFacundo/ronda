@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es-AR">
+  <body style="margin:0;padding:32px 20px;background:#F7F2E8;font-family:Arial,Helvetica,sans-serif;color:#231C16;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:480px;margin:0 auto;">
+      <tr>
+        <td style="font:600 24px/1 Georgia,serif;padding-bottom:28px;">ronda</td>
+      </tr>
+      <tr>
+        <td style="font:500 28px/1.15 Georgia,serif;padding-bottom:12px;">Entrá a Ronda</td>
+      </tr>
+      <tr>
+        <td style="font:400 16px/1.5 Arial,Helvetica,sans-serif;color:#3F352D;padding-bottom:24px;">
+          Tocá el botón para entrar. El link vence en 15 minutos y sirve una sola vez.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-bottom:24px;">
+          <a href="{{ .RedirectTo }}&token_hash={{ .TokenHash }}&type=email"
+             style="display:inline-block;background:#F2B632;color:#231C16;font:700 16px/1 Arial,Helvetica,sans-serif;text-decoration:none;padding:18px 28px;border-radius:12px;">Entrar a Ronda</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="font:400 13px/1.45 Arial,Helvetica,sans-serif;color:#5E5247;">
+          Si no pediste este link, ignorá este correo: nadie puede entrar sin tocarlo.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
